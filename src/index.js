@@ -5,11 +5,13 @@ import ReactDOM from 'react-dom'
 // import ComponenteComFuncao from './components/ComponenteComFuncao'
 // import Pai from './components/Pai'
 // import ComponenteClasse from './components/ComponenteClasse'
+import Contador from './components/Contador'
 
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
+        <Contador numeroInicial={20}/>
     {/* <ComponenteClasse valor="opaopa"/> */}
         {/* <Pai></Pai> */}
         {/* <ComponenteComFuncao /> */}
